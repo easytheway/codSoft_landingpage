@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Castoro+Titling&family=Chakra+Petch:wght@500&family=Instrument+Serif&family=Inter:wght@100..900&family=Kanit:ital,wght@1,100&family=Lato:wght@300&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Satisfy&family=Slabo+27px&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    max-width: 80vw;
+    font-family: "Inter", sans-serif;
+    font-weight:500;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width:50%;
+    height: 50vh;
+}
+.section1{
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.logo{
+    font-size: 1.3em;
+}
+.image{
+    width: 189px;
+}
+.image1{
+    width: 689px;
+}
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border:2px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+.box1{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    text-align: center;
+}
+.box h2{
+    font-size: 2em;
+    padding: 15px 0;
+}
+.highlighed{
+    font-size: 1.8em;
+    font-weight:bolder;
+}
+.box ul{
+    list-style-type:none;
+}
+.box ul li{
+    margin:12px 2px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
